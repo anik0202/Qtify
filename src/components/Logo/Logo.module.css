@@ -1,11 +1,12 @@
 .img{
     cursor: pointer;
-    padding-left: 10px;
+    display: flex;
+    margin: 14px;
 }
 
-.logoContainer {
+/* .logoContainer {
     display: flex;
     align-items: center;
     justify-content: left;
     height: 100%;
-}
+} */
