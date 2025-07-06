@@ -1,0 +1,38 @@
+.card{
+    width: 159px;
+}
+
+.cardContent {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: white;
+    margin: 0;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 95%;
+}
+
+.imgContainer {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.cardImage {
+    object-fit: contain;
+}
+
+.cardText {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
