@@ -2,7 +2,7 @@ import styles from './Section.module.css';
 import Card from '../Card/Card';
 import React, { useState, useEffect } from 'react';
 
-function Section() {
+function Section({ title }) {
 
     const [albums, setAlbums] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -21,7 +21,7 @@ function Section() {
         <section className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <p className={styles.sectionTitle}>Top Albums</p>
+                    <p className={styles.sectionTitle}>{title}</p>
                     <p className={styles.btn}>Collapse</p>
                 </div>
                 <div className={styles.sectionContent}>

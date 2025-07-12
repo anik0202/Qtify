@@ -10,7 +10,8 @@ function App() {
     <div className="App" style={{ backgroundColor: "var(--color-secondary)" }}>
       <Navbar />
       <Hero />
-      <Section />
+      <Section title='Top Albums'/>
+      <Section title='New Alnums'/>
     </div>
   );
 }
