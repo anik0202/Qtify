@@ -2,13 +2,13 @@ import styles from './Section.module.css';
 import Card from '../Card/Card';
 import React, { useState, useEffect } from 'react';
 
-function Section({ title }) {
+function Section({ title, API }) {
 
     const [albums, setAlbums] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('https://qtify-backend-labs.crio.do/albums/top')
+        fetch(API)
             .then(response => response.json())
             .then(data => {
                 setAlbums(data);
