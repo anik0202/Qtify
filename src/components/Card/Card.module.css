@@ -1,5 +1,6 @@
 .card{
-    width: 159px;
+    width: 10rem;
+    height: 14.5rem;
 }
 
 .cardContent {
@@ -11,17 +12,24 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 95%;
+    height: 90%;
+    overflow: hidden;
 }
 
 .imgContainer {
     width: 100%;
-    height: 80%;
+    height: 90%;
     overflow: hidden;
 }
 
 .cardImage {
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chip{
+    margin: 1px 5px;
 }
 
 .cardText {

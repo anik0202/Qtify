@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Card from './components/Card/Card';
+import Section from './components/Section/Section';
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className="App" style={{ backgroundColor: "var(--color-secondary)" }}>
       <Navbar />
       <Hero />
-      <Card />
+      <Section />
     </div>
   );
 }
