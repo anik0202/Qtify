@@ -9,15 +9,6 @@
     justify-content: space-between;
     align-items: center;
 }
-.btn{
-    font: Poppins, sans-serif;
-    font-weight: 500;
-    font-size: 20px; 
-    color: #34C94B;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
 .grid{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
