@@ -1,0 +1,15 @@
+.swiper {
+  width: 97dvw;
+  height: 100%;
+  overflow: hidden;
+}
+
+.swiperWrapper {
+  display: flex;
+  width: 100%;
+}
+
+.swiperSlide {
+  width: auto; /* or your card width */
+  flex-shrink: 0;
+}
