@@ -13,6 +13,7 @@ function App() {
       <Hero />
       <Section title='Top Albums' API={`${API.topAlbums}`}/>
       <Section title='New Albums' API={`${API.newAlbums}`}/>
+      <Section title="Songs" API={`${API.songs}`}/>
     </div>
   );
 }

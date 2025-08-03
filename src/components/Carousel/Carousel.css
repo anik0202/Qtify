@@ -13,3 +13,24 @@
   width: auto; /* or your card width */
   flex-shrink: 0;
 }
+
+.swiper-button-prev {
+  left: 10px;
+  background-image: url('../../assets/left_arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.swiper-button-next {
+  right: 10px;
+  background-image: url('../../assets/right_arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}

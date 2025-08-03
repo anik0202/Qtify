@@ -1,4 +1,5 @@
 {
     "topAlbums": "https://qtify-backend-labs.crio.do/albums/top",
-    "newAlbums": "https://qtify-backend-labs.crio.do/albums/new"
+    "newAlbums": "https://qtify-backend-labs.crio.do/albums/new",
+    "songs": "https://qtify-backend-labs.crio.do/songs"
 }

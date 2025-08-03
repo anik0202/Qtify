@@ -14,7 +14,7 @@ function Carousel({ items, onItemClick }) {
     new Swiper('.swiper', {
       direction: 'horizontal',
       loop: false,
-      slidesPerView: 9,
+      slidesPerView: 9.8,
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
